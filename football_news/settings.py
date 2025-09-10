@@ -36,7 +36,6 @@ CSRF_TRUSTED_ORIGINS = [
     "https://muhammad-geriya-footballnews.pbp.cs.ui.ac.id"
 ]
 
-rgi
 
 # Application definition
 
