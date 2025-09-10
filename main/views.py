@@ -12,7 +12,7 @@ def show_main(request):
         'name': 'Muhammad Geriya Itsa',
         'class': 'PBP F',
         'news_list': news_list
-    }
+    } j 
 
     return render(request, "main.html", context)
 
