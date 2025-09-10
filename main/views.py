@@ -53,7 +53,7 @@ def show_xml_by_id(request, news_id):
         return HttpResponse(xml_data, content_type="application/xml")
     except News.DoesNotExist:
         return HttpResponse(status=404)
-
+    
 def show_json_by_id(request, news_id):
     try:
         news_item = News.objects.get(pk=news_id)
